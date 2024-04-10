@@ -1,1 +1,24 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    width: 120px;
+    height: 50px;
+    background: #A688F7;
+    color: black;
+    border-radius: 18px;
+    outline: none;
+    margin: 50px;
+}
+
+#showing {
+    padding: 12px;
+    font-size: 3rem;
+    min-width: 90px;
+    border-radius: 5px;
+    background: #004182;
+}
